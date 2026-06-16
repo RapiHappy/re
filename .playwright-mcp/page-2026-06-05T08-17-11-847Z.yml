@@ -1,0 +1,125 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: 🧬
+        - generic [ref=e7]: Ученый
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: 🧬
+          - generic [ref=e12]: "0"
+        - generic [ref=e13]:
+          - generic [ref=e14]: 💰
+          - generic [ref=e15]: "255"
+    - main [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e25]:
+            - img "Файрик"
+            - generic [ref=e26]: Ур.1 Файрик
+          - generic [ref=e28]:
+            - img "Акварик"
+            - generic [ref=e29]: Ур.1 Акварик
+          - generic [ref=e33]:
+            - img "Лифтик"
+            - generic [ref=e34]: Ур.1 Лифтик
+          - generic [ref=e36]:
+            - img "Механик"
+            - generic [ref=e37]: Ур.1 Механик
+          - generic [ref=e41]:
+            - img "Теневик"
+            - generic [ref=e42]: Ур.1 Теневик
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Доход
+            - generic [ref=e57]: +0.5/с
+          - generic [ref=e58]:
+            - generic [ref=e59]: Коллекция
+            - generic [ref=e60]: 5/24 🧬
+      - generic [ref=e62]:
+        - generic [ref=e65]: +
+        - generic [ref=e67]: "Шанс мутации: 25%"
+        - button "СКРЕСТИТЬ" [disabled] [ref=e68]
+    - contentinfo [ref=e69]:
+      - generic [ref=e70]:
+        - button "📖 Альбом" [ref=e71] [cursor=pointer]
+        - button "🛒 Магазин" [active] [ref=e72] [cursor=pointer]
+  - generic [ref=e74]:
+    - generic [ref=e75]:
+      - heading "🛒 Магазин ДНК" [level=2] [ref=e76]
+      - generic [ref=e77] [cursor=pointer]: ×
+    - generic [ref=e78]:
+      - generic [ref=e79]: Приобретайте базовые элементы за 10 ДНК Коинов. Они будут добавлены на свободные ячейки инкубаторов.
+      - generic [ref=e80]:
+        - heading "Базовые элементы (за 💰 Золото)" [level=3] [ref=e81]
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - img "Файрик"
+            - generic [ref=e84]:
+              - generic [ref=e85]: Файрик (Ур.undefined)
+              - generic [ref=e86]: "Доход: +0.1/с 🪙"
+          - button "Купить (20 💰)" [ref=e87] [cursor=pointer]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - img "Акварик"
+            - generic [ref=e90]:
+              - generic [ref=e91]: Акварик (Ур.undefined)
+              - generic [ref=e92]: "Доход: +0.1/с 🪙"
+          - button "Купить (30 💰)" [ref=e93] [cursor=pointer]
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img "Лифтик"
+            - generic [ref=e96]:
+              - generic [ref=e97]: Лифтик (Ур.undefined)
+              - generic [ref=e98]: "Доход: +0.1/с 🪙"
+          - button "Купить (45 💰)" [ref=e99] [cursor=pointer]
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - img "Механик"
+            - generic [ref=e102]:
+              - generic [ref=e103]: Механик (Ур.undefined)
+              - generic [ref=e104]: "Доход: +0.1/с 🪙"
+          - button "Купить (70 💰)" [ref=e105] [cursor=pointer]
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - img "Теневик"
+            - generic [ref=e108]:
+              - generic [ref=e109]: Теневик (Ур.undefined)
+              - generic [ref=e110]: "Доход: +0.1/с 🪙"
+          - button "Купить (100 💰)" [ref=e111] [cursor=pointer]
+        - heading "Продвинутые элементы (за 🧬 ДНК)" [level=3] [ref=e112]
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - img "Инферно"
+            - generic [ref=e115]:
+              - generic [ref=e116]: Инферно (Ур.undefined)
+              - generic [ref=e117]: "Доход: +0.5/с 🪙"
+          - button "Купить (15 🧬)" [disabled] [ref=e118]
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - img "Гейзерик"
+            - generic [ref=e121]:
+              - generic [ref=e122]: Гейзерик (Ур.undefined)
+              - generic [ref=e123]: "Доход: +0.5/с 🪙"
+          - button "Купить (15 🧬)" [disabled] [ref=e124]
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - img "Эво-лиф"
+            - generic [ref=e127]:
+              - generic [ref=e128]: Эво-лиф (Ур.undefined)
+              - generic [ref=e129]: "Доход: +0.5/с 🪙"
+          - button "Купить (15 🧬)" [disabled] [ref=e130]
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - img "Роботян"
+            - generic [ref=e133]:
+              - generic [ref=e134]: Роботян (Ур.undefined)
+              - generic [ref=e135]: "Доход: +0.5/с 🪙"
+          - button "Купить (15 🧬)" [disabled] [ref=e136]
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - img "Нуклик"
+            - generic [ref=e139]:
+              - generic [ref=e140]: Нуклик (Ур.undefined)
+              - generic [ref=e141]: "Доход: +0.5/с 🪙"
+          - button "Купить (15 🧬)" [disabled] [ref=e142]

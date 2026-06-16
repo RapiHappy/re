@@ -1,0 +1,53 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 🧪
+    - generic [ref=e5]: MONSTER LAB
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 🧬
+      - generic [ref=e10]: Ученый
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: 🧬
+        - generic [ref=e15]: "0"
+      - generic [ref=e16]:
+        - generic [ref=e17]: 💰
+        - generic [ref=e18]: 1 059
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - paragraph [ref=e21]: "Пока вас не было, накопилось:"
+      - paragraph [ref=e22]: 2 🪙 прибыли
+    - button "Забрать" [ref=e23] [cursor=pointer]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - img "Файрик"
+          - generic [ref=e29]: Ур.1 Файрик
+        - generic [ref=e31]:
+          - img "Акварик"
+          - generic [ref=e32]: Ур.1 Акварик
+        - generic [ref=e36]:
+          - img "Лифтик"
+          - generic [ref=e37]: Ур.1 Лифтик
+        - generic [ref=e39]:
+          - img "Механик"
+          - generic [ref=e40]: Ур.1 Механик
+        - generic [ref=e44]:
+          - img "Теневик"
+          - generic [ref=e45]: Ур.1 Теневик
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]: Доход
+          - generic [ref=e60]: +0.5/с
+        - generic [ref=e61]:
+          - generic [ref=e62]: Коллекция
+          - generic [ref=e63]: 5/24 🧬
+    - generic [ref=e65]:
+      - generic [ref=e68]: +
+      - generic [ref=e70]: "Шанс мутации: 25%"
+      - button "СКРЕСТИТЬ" [disabled] [ref=e71]
+  - contentinfo [ref=e72]:
+    - generic [ref=e73]:
+      - button "📖 Альбом" [ref=e74] [cursor=pointer]
+      - button "🛒 Магазин" [ref=e75] [cursor=pointer]

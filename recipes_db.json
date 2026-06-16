@@ -1,0 +1,21 @@
+{
+  "cat+dog": "catdog",
+  "apple+cat": "apple_cat",
+  "banana+cat": "banana_cat",
+  "cat+smiley": "happy_cat",
+  "cat+noob": "floppa",
+  "dog+smiley": "doge",
+  "dog+noob": "minecraft_dog",
+  "noob+smiley": "roblox_face",
+  "banana+noob": "banana_noob",
+  "apple+noob": "steve",
+  "banana+smiley": "dancing_banana",
+  "apple+smiley": "annoying_orange",
+  "apple+banana": "space",
+  "cat+space": "nyan_cat",
+  "dog+space": "doge_space",
+  "noob+space": "astronaut_noob",
+  "smiley+space": "alien",
+  "banana+space": "banana_space",
+  "apple+space": "apple_space"
+}

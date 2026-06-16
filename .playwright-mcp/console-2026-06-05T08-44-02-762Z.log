@@ -1,0 +1,407 @@
+[      51ms] [LOG] [Telegram.WebView] > postEvent web_app_set_header_color {color_key: bg_color} @ https://telegram.org/js/telegram-web-app.js:134
+[      51ms] [LOG] [Telegram.WebView] > postEvent web_app_set_bottom_bar_color {color: #ffffff} @ https://telegram.org/js/telegram-web-app.js:134
+[      52ms] [LOG] [Telegram.WebView] > postEvent web_app_request_theme  @ https://telegram.org/js/telegram-web-app.js:134
+[      52ms] [LOG] [Telegram.WebView] > postEvent web_app_request_viewport  @ https://telegram.org/js/telegram-web-app.js:134
+[      52ms] [LOG] [Telegram.WebView] > postEvent web_app_request_safe_area  @ https://telegram.org/js/telegram-web-app.js:134
+[      52ms] [LOG] [Telegram.WebView] > postEvent web_app_request_content_safe_area  @ https://telegram.org/js/telegram-web-app.js:134
+[     133ms] [LOG] Database loaded successfully: 24 elements. @ http://localhost:8000/gameState.js:28
+[     134ms] [LOG] [Telegram.WebView] > postEvent web_app_expand  @ https://telegram.org/js/telegram-web-app.js:134
+[     134ms] [LOG] [Telegram.WebView] > postEvent web_app_ready  @ https://telegram.org/js/telegram-web-app.js:134
+[     134ms] [LOG] Running in Telegram but no user data found (initDataUnsafe empty). @ http://localhost:8000/telegramApp.js:26
+[     134ms] [LOG] Previous laboratory restored. @ http://localhost:8000/app.js:472
+[     136ms] [LOG] [Telegram.WebView] > postEvent web_app_setup_main_button {is_visible: true, is_active: true, is_progress_visible: false, icon_custom_emoji_id: false, text: Собрать прибыль (+2 🪙)} @ https://telegram.org/js/telegram-web-app.js:134
+[     168ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/fairik.png:0
+[     168ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/aquarik.png:0
+[     169ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/liftik.png:0
+[     170ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/mechanic.png:0
+[     170ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/tenevik.png:0
+[   24876ms] [LOG] [Telegram.WebView] > postEvent web_app_set_header_color {color_key: bg_color} @ https://telegram.org/js/telegram-web-app.js:134
+[   24876ms] [LOG] [Telegram.WebView] > postEvent web_app_set_bottom_bar_color {color: #ffffff} @ https://telegram.org/js/telegram-web-app.js:134
+[   24876ms] [LOG] [Telegram.WebView] > postEvent web_app_request_theme  @ https://telegram.org/js/telegram-web-app.js:134
+[   24877ms] [LOG] [Telegram.WebView] > postEvent web_app_request_viewport  @ https://telegram.org/js/telegram-web-app.js:134
+[   24877ms] [LOG] [Telegram.WebView] > postEvent web_app_request_safe_area  @ https://telegram.org/js/telegram-web-app.js:134
+[   24877ms] [LOG] [Telegram.WebView] > postEvent web_app_request_content_safe_area  @ https://telegram.org/js/telegram-web-app.js:134
+[   24893ms] [LOG] Database loaded successfully: 24 elements. @ http://localhost:8000/gameState.js:28
+[   24894ms] [LOG] [Telegram.WebView] > postEvent web_app_expand  @ https://telegram.org/js/telegram-web-app.js:134
+[   24894ms] [LOG] [Telegram.WebView] > postEvent web_app_ready  @ https://telegram.org/js/telegram-web-app.js:134
+[   24894ms] [LOG] Running in Telegram but no user data found (initDataUnsafe empty). @ http://localhost:8000/telegramApp.js:26
+[   24894ms] [LOG] Previous laboratory restored. @ http://localhost:8000/app.js:472
+[   24896ms] [LOG] [Telegram.WebView] > postEvent web_app_setup_main_button {is_visible: true, is_active: true, is_progress_visible: false, icon_custom_emoji_id: false, text: Собрать прибыль (+2 🪙)} @ https://telegram.org/js/telegram-web-app.js:134
+[   24927ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/fairik.png:0
+[   24928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/aquarik.png:0
+[   24928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/liftik.png:0
+[   24928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/mechanic.png:0
+[   24929ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/tenevik.png:0
+[   25571ms] [LOG] [Telegram.WebView] > postEvent web_app_set_header_color {color_key: bg_color} @ https://telegram.org/js/telegram-web-app.js:134
+[   25572ms] [LOG] [Telegram.WebView] > postEvent web_app_set_bottom_bar_color {color: #ffffff} @ https://telegram.org/js/telegram-web-app.js:134
+[   25572ms] [LOG] [Telegram.WebView] > postEvent web_app_request_theme  @ https://telegram.org/js/telegram-web-app.js:134
+[   25572ms] [LOG] [Telegram.WebView] > postEvent web_app_request_viewport  @ https://telegram.org/js/telegram-web-app.js:134
+[   25572ms] [LOG] [Telegram.WebView] > postEvent web_app_request_safe_area  @ https://telegram.org/js/telegram-web-app.js:134
+[   25572ms] [LOG] [Telegram.WebView] > postEvent web_app_request_content_safe_area  @ https://telegram.org/js/telegram-web-app.js:134
+[   25588ms] [LOG] Database loaded successfully: 24 elements. @ http://localhost:8000/gameState.js:28
+[   25588ms] [LOG] [Telegram.WebView] > postEvent web_app_expand  @ https://telegram.org/js/telegram-web-app.js:134
+[   25589ms] [LOG] [Telegram.WebView] > postEvent web_app_ready  @ https://telegram.org/js/telegram-web-app.js:134
+[   25589ms] [LOG] Running in Telegram but no user data found (initDataUnsafe empty). @ http://localhost:8000/telegramApp.js:26
+[   25589ms] [LOG] Previous laboratory restored. @ http://localhost:8000/app.js:472
+[   25589ms] [LOG] [Telegram.WebView] > postEvent web_app_setup_main_button {is_visible: true, is_active: true, is_progress_visible: false, icon_custom_emoji_id: false, text: Собрать прибыль (+3 🪙)} @ https://telegram.org/js/telegram-web-app.js:134
+[   25608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/fairik.png:0
+[   25608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/aquarik.png:0
+[   25609ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/liftik.png:0
+[   25609ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/mechanic.png:0
+[   25610ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/tenevik.png:0
+[   28775ms] [LOG] [Telegram.WebView] > postEvent web_app_setup_main_button {is_visible: false} @ https://telegram.org/js/telegram-web-app.js:134
+[ 2037552ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92241)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92320)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92342)
+[ 2037552ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:80818)
+[ 2037553ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at window.loadEnvironmentPromise.window.loadEnvironmentPromise.Promise.then.t (https://yandex.ru/games/sdk/v2:0:81003)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:80950)
+[ 2037574ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at window.loadEnvironmentPromise.window.loadEnvironmentPromise.Promise.then.t (https://yandex.ru/games/sdk/v2:1:81004)
+    at new Promise (<anonymous>)
+    at https://yandex.ru/games/sdk/v2:1:80951 @ https://yandex.ru/games/sdk/v2:0
+[ 2037575ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at s (https://yandex.ru/games/sdk/v2:1:7976)
+    at i (https://yandex.ru/games/sdk/v2:1:8051)
+    at https://yandex.ru/games/sdk/v2:1:90784 @ :0
+[ 2037577ms] [WARNING] Error: Can not get appId from environment
+    at a (https://yandex.ru/games/sdk/v2:1:9688)
+    at Object.sendOnceDeprecatedUsage (https://yandex.ru/games/sdk/v2:1:9984)
+    at https://yandex.ru/games/sdk/v2:1:70884
+    at https://yandex.ru/games/sdk/v2:1:71077
+    at Un (https://yandex.ru/games/sdk/v2:1:71083)
+    at new La (https://yandex.ru/games/sdk/v2:1:82589)
+    at https://yandex.ru/games/sdk/v2:1:87911 @ https://yandex.ru/games/sdk/v2:0
+[ 2037580ms] [WARNING] Error: SDK environment: `window.YandexGamesSDKEnvironment` is undefined
+    at K (https://yandex.ru/games/sdk/v2:1:29670)
+    at get isTelegram (https://yandex.ru/games/sdk/v2:1:29998)
+    at https://yandex.ru/games/sdk/v2:1:87935 @ https://yandex.ru/games/sdk/v2:0
+[ 2037581ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at s (https://yandex.ru/games/sdk/v2:1:7976)
+    at i (https://yandex.ru/games/sdk/v2:1:8051)
+    at a (https://yandex.ru/games/sdk/v2:1:9687)
+    at Object.sendOnceDeprecatedUsage (https://yandex.ru/games/sdk/v2:1:9984)
+    at https://yandex.ru/games/sdk/v2:1:70884
+    at https://yandex.ru/games/sdk/v2:1:71077
+    at Un (https://yandex.ru/games/sdk/v2:1:71083)
+    at new La (https://yandex.ru/games/sdk/v2:1:82589)
+    at https://yandex.ru/games/sdk/v2:1:87911 @ :0
+[ 2037581ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at s (https://yandex.ru/games/sdk/v2:1:7976)
+    at i (https://yandex.ru/games/sdk/v2:1:8051)
+    at K (https://yandex.ru/games/sdk/v2:1:29669)
+    at get isTelegram (https://yandex.ru/games/sdk/v2:1:29998)
+    at https://yandex.ru/games/sdk/v2:1:87935 @ :0
+[ 2037581ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at G.updateDisabledState (https://yandex.ru/games/sdk/v2:1:24618)
+    at new G (https://yandex.ru/games/sdk/v2:1:23670)
+    at new La (https://yandex.ru/games/sdk/v2:1:83412)
+    at https://yandex.ru/games/sdk/v2:1:87911 @ :0
+[ 2037581ms] [LOG] Yandex Games SDK initialized successfully. @ http://localhost:8000/yandexApi.js:17
+[ 2037582ms] [WARNING] Yandex Player initialization failed/guest mode: Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at Proxy.r (https://yandex.ru/games/sdk/v2:1:38686)
+    at r.next (<anonymous>)
+    at https://yandex.ru/games/sdk/v2:1:39143
+    at new Promise (<anonymous>)
+    at Proxy.De (https://yandex.ru/games/sdk/v2:1:38963)
+    at initYandex (http://localhost:8000/yandexApi.js:22:53)
+    at async HTMLDocument.<anonymous> (http://localhost:8000/app.js:574:5) @ http://localhost:8000/yandexApi.js:24
+[ 2037583ms] [ERROR] Yandex SDK initialization error: TypeError: ysdkInstance.ready is not a function
+    at initYandex (http://localhost:8000/yandexApi.js:29:26)
+    at async HTMLDocument.<anonymous> (http://localhost:8000/app.js:574:5) @ https://yandex.ru/games/sdk/v2:0
+[ 2037583ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at _r (https://yandex.ru/games/sdk/v2:1:59975)
+    at console.error (https://yandex.ru/games/sdk/v2:1:62626)
+    at initYandex (http://localhost:8000/yandexApi.js:34:17)
+    at async HTMLDocument.<anonymous> (http://localhost:8000/app.js:574:5) @ https://yandex.ru/games/sdk/v2:0
+[ 2037609ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at wn (https://yandex.ru/games/sdk/v2:0:67274)
+    at La (https://yandex.ru/games/sdk/v2:0:85059)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87910)
+[ 2037609ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at updateStatus (https://yandex.ru/games/sdk/v2:0:73926)
+    at Jn (https://yandex.ru/games/sdk/v2:0:73443)
+    at Qn (https://yandex.ru/games/sdk/v2:0:74429)
+    at La (https://yandex.ru/games/sdk/v2:0:85035)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87910)
+[ 2037609ms] [ERROR] Unhandled rejection: No parent to post message {additional: Object, message: Unhandled rejection: No parent to post message, name: UnhandledPromiseError, stack: Error: No parent to post message
+    at e.postToPa….<anonymous> (http://localhost:8000/app.js:574:5)} @ https://yandex.ru/games/sdk/v2:0
+[ 2037609ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at Object._r [as logger] (https://yandex.ru/games/sdk/v2:1:59975)
+    at Object._postError (https://yandex.ru/games/sdk/v2:1:62084)
+    at Object._unsafeHandlePromiseRejectionEvent (https://yandex.ru/games/sdk/v2:1:61171)
+    at Object._unsafeHandleEvent (https://yandex.ru/games/sdk/v2:1:60636)
+    at Object._handleEvent (https://yandex.ru/games/sdk/v2:1:60480)
+    at Object.handleEvent (https://yandex.ru/games/sdk/v2:1:60429) @ https://yandex.ru/games/sdk/v2:0
+[ 2037610ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at r (https://yandex.ru/games/sdk/v2:0:38685)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:39142)
+    at De (https://yandex.ru/games/sdk/v2:0:38962)
+    at initYandex (http://localhost:8000/yandexApi.js:21:52)
+[ 2037612ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92034)
+    at t (https://yandex.ru/games/sdk/v2:0:85685)
+[ 2037612ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:86426)
+[ 2037612ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at e (https://yandex.ru/games/sdk/v2:0:87578)
+[ 2037610ms] [LOG] Database loaded successfully: 24 elements. @ http://localhost:8000/gameState.js:30
+[ 2037611ms] [LOG] Loaded game state from localStorage fallback. @ http://localhost:8000/gameState.js:76
+[ 2037611ms] [LOG] Laboratory state successfully restored. @ http://localhost:8000/app.js:582
+[ 2037635ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/fairik.png:0
+[ 2037635ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/aquarik.png:0
+[ 2037636ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/liftik.png:0
+[ 2037636ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/mechanic.png:0
+[ 2037637ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/tenevik.png:0
+[ 2038414ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[ 2042531ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[ 2043231ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at e (https://yandex.ru/games/sdk/v2:0:81827)
+[ 2044581ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[ 2047016ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[ 2047634ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:90901)
+    at Fa (https://yandex.ru/games/sdk/v2:0:85663)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:90889)
+[ 2047637ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:86263)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:86246)
+[ 2050594ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[ 2067584ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at logGameInitTime (https://yandex.ru/games/sdk/v2:0:65995)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:66120)
+[ 2097585ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at ke (https://yandex.ru/games/sdk/v2:0:38322)
+[ 2193516ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10261447ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10262679ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92241)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92320)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92342)
+[10262679ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:80818)
+[10262679ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at window.loadEnvironmentPromise.window.loadEnvironmentPromise.Promise.then.t (https://yandex.ru/games/sdk/v2:0:81003)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:80950)
+[10262747ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at window.loadEnvironmentPromise.window.loadEnvironmentPromise.Promise.then.t (https://yandex.ru/games/sdk/v2:1:81004)
+    at new Promise (<anonymous>)
+    at https://yandex.ru/games/sdk/v2:1:80951 @ https://yandex.ru/games/sdk/v2:0
+[10262748ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at s (https://yandex.ru/games/sdk/v2:1:7976)
+    at i (https://yandex.ru/games/sdk/v2:1:8051)
+    at https://yandex.ru/games/sdk/v2:1:90784 @ :0
+[10262749ms] [WARNING] Error: Can not get appId from environment
+    at a (https://yandex.ru/games/sdk/v2:1:9688)
+    at Object.sendOnceDeprecatedUsage (https://yandex.ru/games/sdk/v2:1:9984)
+    at https://yandex.ru/games/sdk/v2:1:70884
+    at https://yandex.ru/games/sdk/v2:1:71077
+    at Un (https://yandex.ru/games/sdk/v2:1:71083)
+    at new La (https://yandex.ru/games/sdk/v2:1:82589)
+    at https://yandex.ru/games/sdk/v2:1:87911 @ https://yandex.ru/games/sdk/v2:0
+[10262751ms] [WARNING] Error: SDK environment: `window.YandexGamesSDKEnvironment` is undefined
+    at K (https://yandex.ru/games/sdk/v2:1:29670)
+    at get isTelegram (https://yandex.ru/games/sdk/v2:1:29998)
+    at https://yandex.ru/games/sdk/v2:1:87935 @ https://yandex.ru/games/sdk/v2:0
+[10262752ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at s (https://yandex.ru/games/sdk/v2:1:7976)
+    at i (https://yandex.ru/games/sdk/v2:1:8051)
+    at a (https://yandex.ru/games/sdk/v2:1:9687)
+    at Object.sendOnceDeprecatedUsage (https://yandex.ru/games/sdk/v2:1:9984)
+    at https://yandex.ru/games/sdk/v2:1:70884
+    at https://yandex.ru/games/sdk/v2:1:71077
+    at Un (https://yandex.ru/games/sdk/v2:1:71083)
+    at new La (https://yandex.ru/games/sdk/v2:1:82589)
+    at https://yandex.ru/games/sdk/v2:1:87911 @ :0
+[10262752ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at s (https://yandex.ru/games/sdk/v2:1:7976)
+    at i (https://yandex.ru/games/sdk/v2:1:8051)
+    at K (https://yandex.ru/games/sdk/v2:1:29669)
+    at get isTelegram (https://yandex.ru/games/sdk/v2:1:29998)
+    at https://yandex.ru/games/sdk/v2:1:87935 @ :0
+[10262752ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at G.updateDisabledState (https://yandex.ru/games/sdk/v2:1:24618)
+    at new G (https://yandex.ru/games/sdk/v2:1:23670)
+    at new La (https://yandex.ru/games/sdk/v2:1:83412)
+    at https://yandex.ru/games/sdk/v2:1:87911 @ :0
+[10262752ms] [LOG] Yandex Games SDK initialized successfully. @ http://localhost:8000/yandexApi.js:17
+[10262753ms] [WARNING] Yandex Player initialization failed/guest mode: Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at Proxy.r (https://yandex.ru/games/sdk/v2:1:38686)
+    at r.next (<anonymous>)
+    at https://yandex.ru/games/sdk/v2:1:39143
+    at new Promise (<anonymous>)
+    at Proxy.De (https://yandex.ru/games/sdk/v2:1:38963)
+    at initYandex (http://localhost:8000/yandexApi.js:22:53)
+    at async HTMLDocument.<anonymous> (http://localhost:8000/app.js:574:5) @ http://localhost:8000/yandexApi.js:24
+[10262754ms] [ERROR] Yandex SDK initialization error: TypeError: ysdkInstance.ready is not a function
+    at initYandex (http://localhost:8000/yandexApi.js:29:26)
+    at async HTMLDocument.<anonymous> (http://localhost:8000/app.js:574:5) @ https://yandex.ru/games/sdk/v2:0
+[10262754ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at _r (https://yandex.ru/games/sdk/v2:1:59975)
+    at console.error (https://yandex.ru/games/sdk/v2:1:62626)
+    at initYandex (http://localhost:8000/yandexApi.js:34:17)
+    at async HTMLDocument.<anonymous> (http://localhost:8000/app.js:574:5) @ https://yandex.ru/games/sdk/v2:0
+[10262757ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:92034)
+    at t (https://yandex.ru/games/sdk/v2:0:85685)
+[10262788ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at longtaskObserver (https://yandex.ru/games/sdk/v2:0:86361)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87471)
+    at o (https://yandex.ru/games/sdk/v2:0:78667)
+[10262789ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at e (https://yandex.ru/games/sdk/v2:0:87578)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87674)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87712)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87529)
+    at o (https://yandex.ru/games/sdk/v2:0:78667)
+[10262789ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at wn (https://yandex.ru/games/sdk/v2:0:67274)
+    at La (https://yandex.ru/games/sdk/v2:0:85059)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87910)
+[10262789ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at updateStatus (https://yandex.ru/games/sdk/v2:0:73926)
+    at Jn (https://yandex.ru/games/sdk/v2:0:73443)
+    at Qn (https://yandex.ru/games/sdk/v2:0:74429)
+    at La (https://yandex.ru/games/sdk/v2:0:85035)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:87910)
+[10262790ms] [ERROR] Unhandled rejection: No parent to post message {additional: Object, message: Unhandled rejection: No parent to post message, name: UnhandledPromiseError, stack: Error: No parent to post message
+    at e.postToPa….<anonymous> (http://localhost:8000/app.js:574:5)} @ https://yandex.ru/games/sdk/v2:0
+[10262790ms] [WARNING] Error: No parent to post message
+    at e.postToParent (https://yandex.ru/games/sdk/v2:1:13831)
+    at Object._r [as logger] (https://yandex.ru/games/sdk/v2:1:59975)
+    at Object._postError (https://yandex.ru/games/sdk/v2:1:62084)
+    at Object._unsafeHandlePromiseRejectionEvent (https://yandex.ru/games/sdk/v2:1:61171)
+    at Object._unsafeHandleEvent (https://yandex.ru/games/sdk/v2:1:60636)
+    at Object._handleEvent (https://yandex.ru/games/sdk/v2:1:60480)
+    at Object.handleEvent (https://yandex.ru/games/sdk/v2:1:60429) @ https://yandex.ru/games/sdk/v2:0
+[10262791ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at r (https://yandex.ru/games/sdk/v2:0:38685)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:39142)
+    at De (https://yandex.ru/games/sdk/v2:0:38962)
+    at initYandex (http://localhost:8000/yandexApi.js:21:52)
+[10262793ms] [LOG] Database loaded successfully: 24 elements. @ http://localhost:8000/gameState.js:30
+[10262793ms] [LOG] Loaded game state from localStorage fallback. @ http://localhost:8000/gameState.js:76
+[10262793ms] [LOG] Laboratory state successfully restored. @ http://localhost:8000/app.js:582
+[10262809ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/aquarik.png:0
+[10262812ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/liftik.png:0
+[10262812ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/fairik.png:0
+[10262813ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/mechanic.png:0
+[10262813ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/assets/images/tenevik.png:0
+[10264771ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10266820ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10267097ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:86263)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:86246)
+[10268838ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10272799ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:90901)
+    at Fa (https://yandex.ru/games/sdk/v2:0:85663)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:90889)
+[10274181ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10277124ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10279138ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10281159ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10283276ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10285225ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10291123ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:81516)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:16814)
+[10292753ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at logGameInitTime (https://yandex.ru/games/sdk/v2:0:65995)
+    at <anonymous> (https://yandex.ru/games/sdk/v2:0:66120)
+[10322759ms] Uncaught (in promise) Error: No parent to post message
+    at postToParent (https://yandex.ru/games/sdk/v2:0:13830)
+    at ke (https://yandex.ru/games/sdk/v2:0:38322)

@@ -1,0 +1,45 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 🧬
+      - generic [ref=e7]: Ученый
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: 🧬
+        - generic [ref=e12]: "0"
+      - generic [ref=e13]:
+        - generic [ref=e14]: 💰
+        - generic [ref=e15]: "217"
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e25]:
+          - img "Файрик"
+          - generic [ref=e26]: Ур.1 Файрик
+        - generic [ref=e28]:
+          - img "Акварик"
+          - generic [ref=e29]: Ур.1 Акварик
+        - generic [ref=e33]:
+          - img "Лифтик"
+          - generic [ref=e34]: Ур.1 Лифтик
+        - generic [ref=e36]:
+          - img "Механик"
+          - generic [ref=e37]: Ур.1 Механик
+        - generic [ref=e41]:
+          - img "Теневик"
+          - generic [ref=e42]: Ур.1 Теневик
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]: Доход
+          - generic [ref=e57]: +0.5/с
+        - generic [ref=e58]:
+          - generic [ref=e59]: Коллекция
+          - generic [ref=e60]: 5/24 🧬
+    - generic [ref=e62]:
+      - generic [ref=e65]: +
+      - generic [ref=e67]: "Шанс мутации: 25%"
+      - button "СКРЕСТИТЬ" [disabled] [ref=e68]
+  - contentinfo [ref=e69]:
+    - generic [ref=e70]:
+      - button "📖 Альбом" [ref=e71] [cursor=pointer]
+      - button "🛒 Магазин" [ref=e72] [cursor=pointer]
