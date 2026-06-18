@@ -1,194 +1,53 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Monster Lab: Evolution</title>
-    
-    <meta name="description" content="Monster Lab: Evolution - premium web game on Yandex Games. Merge and evolve elemental monsters, discover unique mutations!">
-    <meta name="author" content="Monster Lab Team">
-    <meta name="theme-color" content="#070a13">
-    
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Yandex Games SDK -->
-    <script src="https://yandex.ru/games/sdk/v2"></script>
-    <!-- Canvas Confetti Library -->
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-</head>
-<body>
-    <div class="app-container">
-        
-        <!-- Top Horizontal Resource Console -->
-        <header class="resource-console">
-            <div class="game-logo">
-                <span class="logo-flask">🧪</span>
-                <span class="logo-text">MONSTER <span class="logo-highlight">LAB</span></span>
-            </div>
-            
-            <div class="profile-info">
-                <div class="avatar-icon" id="user-avatar">🧬</div>
-                <div class="profile-details">
-                    <div class="user-name">Ученый: <span id="user-name">Загрузка...</span></div>
-                    <div class="level-badge">Ур. <span id="user-level">1</span></div>
-                </div>
-            </div>
-            
-            <div class="currency-bar">
-                <div class="currency-item dna-coins">
-                    <span class="currency-icon">🧬</span>
-                    <span class="currency-value" id="dna-display">0</span>
-                    <span class="currency-label">ДНК Коины</span>
-                </div>
-                <button id="reward-ad-btn" style="background: var(--color-cyan); color: #000; border: none; padding: 4px 8px; border-radius: 4px; font-weight: bold; cursor: pointer; margin-bottom: 4px; font-size: 0.8rem; box-shadow: 0 0 10px rgba(0, 255, 204, 0.4);">+1000 ДНК (Реклама)</button>
-                <div class="currency-item gold-coins">
-                    <span class="currency-icon">💰</span>
-                    <span class="currency-value" id="coins-display">0</span>
-                    <span class="currency-label">Золото</span>
-                </div>
-                <div class="currency-item crystals">
-                    <span class="currency-icon">💎</span>
-                    <span class="currency-value" id="crystals-display">250</span>
-                    <span class="currency-label">Кристаллы</span>
-                </div>
-            </div>
-        </header>
-
-        <!-- Offline Earnings Notification -->
-        <div id="offline-alert" class="offline-alert-box hidden">
-            <div class="offline-details">
-                <p>🧬 Вне сети накоплено ДНК Коинов:</p>
-                <p><span class="offline-amount" id="offline-amount">0</span> 🪙 прибыли</p>
-            </div>
-            <button class="collect-btn" id="collect-btn">Забрать</button>
+<div class="app-container">
+    <header class="top-bar glass-panel">
+        <div class="player-info">
+            <div class="avatar"></div>
+            <div class="level-info">Уровень 12</div>
         </div>
-
-        <!-- Main Layout (Dual-Column Desktop Grid) -->
-        <main class="dual-layout">
-            <!-- Left Column: Inventory Section (60%) -->
-            <section class="inventory-section">
-                <div class="panel-header">
-                    <h2>🧪 ХРАНИЛИЩЕ ОБРАЗЦОВ (20 ЯЧЕЕК)</h2>
-                </div>
-                <div class="grid-container" id="grid-container">
-                    <!-- 20 grid cells will be programmatically populated here -->
-                </div>
-                <div class="stats-indicators">
-                    <div class="stat-panel income-panel">
-                        <div class="stat-label">Текущий Доход</div>
-                        <span id="income-display">+0.0/с 🪙</span>
-                    </div>
-                    <div class="stat-panel collection-panel">
-                        <div class="stat-label">Виды в Альбоме</div>
-                        <span id="collection-display">0/24 🧬</span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Right Column: Incubator / Monster Card Panel (40%) -->
-            <section class="incubator-section">
-                <div class="monster-card-panel">
-                    <div class="card-header">
-                        <div class="header-left">
-                            <span class="element-icon">🧪</span>
-                            <h2 class="card-title">ИНКУБАТОР СИНТЕЗА</h2>
-                        </div>
-                        <div class="rarity-stars">⭐⭐⭐⭐⭐</div>
-                    </div>
-                    
-                    <div class="incubator-flask-area">
-                        <div class="flash-overlay" id="flash-overlay"></div>
-                        <div class="incubator-slots">
-                            <div class="grid-cell incubator-slot" id="incubator-1" data-slot="0">
-                                <div class="bubble-container">
-                                    <span style="--i:1;"></span>
-                                    <span style="--i:2;"></span>
-                                    <span style="--i:3;"></span>
-                                </div>
-                            </div>
-                            <span class="plus-sign">+</span>
-                            <div class="grid-cell incubator-slot" id="incubator-2" data-slot="1">
-                                <div class="bubble-container">
-                                    <span style="--i:1;"></span>
-                                    <span style="--i:2;"></span>
-                                    <span style="--i:3;"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="monster-stats-table">
-                        <div class="stat-row">
-                            <span class="stat-name">🪙 Доходность синтеза:</span>
-                            <span class="stat-val" id="merge-income-preview">Скрестите монстров</span>
-                        </div>
-                        <div class="stat-row">
-                            <span class="stat-name">🧬 Шанс мутации:</span>
-                            <span class="stat-val mutation-highlight" id="mutation-chance">25%</span>
-                        </div>
-                        <div class="stat-row">
-                            <span class="stat-name">🔬 Скорость реакции:</span>
-                            <span class="stat-val">Мгновенно</span>
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer">
-                        <div class="xp-bar-wrapper">
-                            <div class="xp-bar-label">Опыт лаборатории:</div>
-                            <div class="xp-bar-container">
-                                <div class="xp-bar-fill" id="xp-bar" style="width: 0%"></div>
-                            </div>
-                        </div>
-                        <button class="merge-btn" id="merge-btn" disabled>СКРЕСТИТЬ</button>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Actions Panel (Footer) -->
-        <footer class="footer-console">
-            <button id="btn-album" class="footer-btn yellow-btn">📖 АЛЬБОМ СУЩЕСТВ</button>
-            <button id="btn-shop" class="footer-btn purple-btn">🛒 МАГАЗИН ДНК</button>
-        </footer>
-        
-    </div>
-
-    <!-- Album Modal -->
-    <div id="album-modal" class="modal hidden">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>📖 Альбом существ</h2>
-                <span class="close-btn" id="close-album">&times;</span>
-            </div>
-            <div class="modal-body">
-                <div class="stats-counter">Открыто видов: <span id="unlocked-count" class="highlight-val">0/0</span></div>
-                <div class="album-grid" id="album-grid">
-                    <!-- Album items populated programmatically -->
-                </div>
-            </div>
+        <div class="resources">
+            <div class="resource-pill">🧬 <span id="dna-count">0</span></div>
+            <div class="resource-pill">💰 <span id="gold-count">0</span></div>
         </div>
-    </div>
+    </header>
 
-    <!-- Shop Modal -->
-    <div id="shop-modal" class="modal hidden">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>🛒 Магазин ДНК</h2>
-                <span class="close-btn" id="close-shop">&times;</span>
+    <main class="game-board">
+
+        <section class="inventory-section glass-panel">
+            <div id="grid" class="grid-container">
+                <div class="grid-cell rarity-common">
+                    <div class="monster-placeholder"></div>
+                    <span class="monster-name">Ур.1 Файрик</span>
+                </div>
+                <div class="grid-cell rarity-rare"></div>
+                <div class="grid-cell rarity-epic"></div>
+                <div class="grid-cell rarity-legendary"></div>
+                <div class="grid-cell rarity-mythic"></div>
             </div>
-            <div class="modal-body">
-                <div class="shop-intro">Приобретайте базовые или улучшенные элементы ДНК для проведения исследований.</div>
-                <div class="shop-list" id="shop-list">
-                    <!-- Shop list populated programmatically -->
+            <div class="stats-footer">
+                <div class="stat-box">Доход: <span id="income-rate">+0.0/c</span></div>
+                <div class="stat-box">Коллекция: <span id="collection-count">0/20</span></div>
+            </div>
+        </section>
+
+        <section class="incubator-section glass-panel">
+            <h2 class="incubator-title">ИНКУБАТОР</h2>
+            <div class="incubator-slots">
+                <div class="slot" id="slot-1">
+                    <div class="slot-placeholder">+</div>
+                </div>
+                <div class="slot" id="slot-2">
+                    <div class="slot-placeholder">+</div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- Toast Notification Container -->
-    <div id="toast-container" class="toast-container"></div>
+            <div class="mutation-chance">Шанс мутации: <span>25%</span></div>
 
-    <!-- Core orchestrator loader (ES Modules) -->
-    <script type="module" src="app.js"></script>
-</body>
-</html>
+            <div class="xp-bar-container">
+                <div class="xp-bar-fill"></div>
+            </div>
+
+            <button id="btn-merge" class="btn-primary" disabled>СКРЕСТИТЬ</button>
+        </section>
+
+    </main>
+</div>
