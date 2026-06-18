@@ -1,53 +1,68 @@
-<div class="app-container">
-    <header class="top-bar glass-panel">
-        <div class="player-info">
-            <div class="avatar"></div>
-            <div class="level-info">Уровень 12</div>
-        </div>
-        <div class="resources">
-            <div class="resource-pill">🧬 <span id="dna-count">0</span></div>
-            <div class="resource-pill">💰 <span id="gold-count">0</span></div>
-        </div>
-    </header>
+<!DOCTYPE html>
+<html lang="ru">
 
-    <main class="game-board">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Lab: Evolution</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Yandex Games SDK -->
+    <script src="https://yandex.ru/games/sdk/v2"></script>
+</head>
 
-        <section class="inventory-section glass-panel">
-            <div id="grid" class="grid-container">
-                <div class="grid-cell rarity-common">
-                    <div class="monster-placeholder"></div>
-                    <span class="monster-name">Ур.1 Файрик</span>
+<body>
+
+    <div class="app-container">
+        <header class="top-bar glass-panel">
+            <div class="player-info">
+                <div class="avatar"></div>
+                <div class="level-info">Уровень 1</div>
+            </div>
+            <div class="resources">
+                <div class="resource-pill">🧬 <span id="dna-count">0</span></div>
+                <div class="resource-pill">💰 <span id="gold-count">0</span></div>
+            </div>
+        </header>
+
+        <main class="game-board">
+
+            <section class="inventory-section glass-panel">
+                <div id="grid" class="grid-container">
                 </div>
-                <div class="grid-cell rarity-rare"></div>
-                <div class="grid-cell rarity-epic"></div>
-                <div class="grid-cell rarity-legendary"></div>
-                <div class="grid-cell rarity-mythic"></div>
-            </div>
-            <div class="stats-footer">
-                <div class="stat-box">Доход: <span id="income-rate">+0.0/c</span></div>
-                <div class="stat-box">Коллекция: <span id="collection-count">0/20</span></div>
-            </div>
-        </section>
-
-        <section class="incubator-section glass-panel">
-            <h2 class="incubator-title">ИНКУБАТОР</h2>
-            <div class="incubator-slots">
-                <div class="slot" id="slot-1">
-                    <div class="slot-placeholder">+</div>
+                <div class="stats-footer">
+                    <div class="stat-box">Доход: <span id="income-rate">+0.0/c</span></div>
+                    <div class="stat-box">Коллекция: <span id="collection-count">0/24</span></div>
                 </div>
-                <div class="slot" id="slot-2">
-                    <div class="slot-placeholder">+</div>
+            </section>
+
+            <section class="incubator-section glass-panel">
+                <h2 class="incubator-title">ИНКУБАТОР</h2>
+                <div class="incubator-slots">
+                    <div class="slot" id="slot-1" data-location="incubator">
+                        <div class="slot-placeholder">+</div>
+                    </div>
+                    <div class="slot" id="slot-2" data-location="incubator">
+                        <div class="slot-placeholder">+</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="mutation-chance">Шанс мутации: <span>25%</span></div>
+                <div class="mutation-chance">Шанс мутации: <span>25%</span></div>
 
-            <div class="xp-bar-container">
-                <div class="xp-bar-fill"></div>
-            </div>
+                <div class="xp-bar-container">
+                    <div class="xp-bar-fill"></div>
+                </div>
 
-            <button id="btn-merge" class="btn-primary" disabled>СКРЕСТИТЬ</button>
-        </section>
+                <button id="btn-merge" class="btn-primary" disabled>СКРЕСТИТЬ</button>
+            </section>
 
-    </main>
-</div>
+        </main>
+    </div>
+
+    <script src="yandexApi.js"></script>
+    <script src="mergeLogic.js"></script>
+    <script src="dragDrop.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
