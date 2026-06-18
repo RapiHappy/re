@@ -3,7 +3,7 @@ import { state, loadDatabases, loadGameState, saveGameState, createMonster } fro
 import { attemptMerge } from './mergeLogic.js';
 import { initDragDrop } from './dragDrop.js';
 import { calculateOfflineProgress, startGameLoop, collectOfflineProfit } from './gameLoop.js';
-import { initYandex, registerSuccessfulMerge } from './yandexApi.js';
+import { initYandex, registerSuccessfulMerge, showRewardedVideoAd } from './yandexApi.js';
 
 // DOM Elements
 const gridContainer = document.getElementById("grid-container");
@@ -31,6 +31,9 @@ const unlockedCountDisplay = document.getElementById("unlocked-count");
 
 // Incubator elements
 const mergeBtn = document.getElementById("merge-btn");
+
+// Reward Ad element
+const rewardAdBtn = document.getElementById("reward-ad-btn");
 
 /**
  * Display premium sci-fi Toast messages.
@@ -619,6 +622,17 @@ document.addEventListener("DOMContentLoaded", async () => {
         collectOfflineProfit(updateUI);
         offlineAlert.classList.add("hidden");
     });
+    
+    if (rewardAdBtn) {
+        rewardAdBtn.addEventListener("click", () => {
+            showRewardedVideoAd(() => {
+                state.dna += 1000;
+                saveGameState();
+                updateUIValues();
+                showToast("Вы получили +1000 ДНК Коинов!", "success");
+            });
+        });
+    }
     
     mergeBtn.addEventListener("click", handleMergeClick);
     

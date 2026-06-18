@@ -1,136 +1,47 @@
-// Alchemy merging engine for "Monster Lab: Evolution"
-import { state, createMonster } from './gameState.js';
-
-/**
- * Checks if two monster IDs can evolve.
- * @param {string} id1 
- * @param {string} id2 
- * @returns {string|null} The next evolution ID, or null if cannot evolve
- */
-export function checkEvolution(id1, id2) {
-    if (!id1 || !id2 || id1 !== id2) return null;
-    
-    // Parse element and tier (e.g. "fire_1")
-    const match = id1.match(/^([a-z]+)_(\d)$/);
-    if (!match) return null;
-    
-    const element = match[1];
-    const tier = parseInt(match[2], 10);
-    
-    if (tier >= 4) return null; // Tier 4 is maximum level
-    
-    return `${element}_${tier + 1}`;
-}
+// mergeLogic.js
 
 const MUTATION_RECIPES = {
-    "fire_water": "mutant_steam_dragon",
-    "mech_nature": "mutant_biorobot",
-    "dark_fire": "mutant_ash_demon",
-    "dark_water": "mutant_abyssal_leviathan"
+    'fire_water': 'mutant_steam',
+    'water_fire': 'mutant_steam',
+    'nature_mech': 'mutant_bio',
+    'mech_nature': 'mutant_bio',
+    'dark_fire': 'mutant_ash',
+    'fire_dark': 'mutant_ash',
+    'water_dark': 'mutant_abyss',
+    'dark_water': 'mutant_abyss'
 };
 
 /**
- * Checks if two element types can mutate.
- * @param {string} element1 
- * @param {string} element2 
- * @returns {string|null} The mutated monster ID, or null if no recipe matches
+ * Validates and processes a merge attempt between two monsters.
+ * 
+ * @param {Object} monster1 - The first monster object.
+ * @param {Object} monster2 - The second monster object.
+ * @returns {String|null} - Resulting monster ID if successful, null if merge fails.
  */
-export function checkMutation(element1, element2) {
-    if (!element1 || !element2) return null;
-    
-    // Sort elements alphabetically to handle any order
-    const key = [element1, element2].sort().join("_");
-    return MUTATION_RECIPES[key] || null;
+function tryMerge(monster1, monster2) {
+    if (!monster1 || !monster2) return null;
+
+    // 1. Evolution (Same ID, tier < 4)
+    if (monster1.id === monster2.id) {
+        if (monster1.tier < 4) {
+            return `${monster1.element}_${monster1.tier + 1}`;
+        }
+        return null; // Cannot evolve tier 4 natively, must mutate
+    }
+
+    // 2. Mutation (Different elements based on recipes)
+    const recipeKey = `${monster1.element}_${monster2.element}`;
+    if (MUTATION_RECIPES[recipeKey]) {
+        return MUTATION_RECIPES[recipeKey];
+    }
+
+    return null; // Invalid merge
 }
 
-/**
- * Attempts to merge two elements based on evolution and mutation rules.
- * 
- * @param {Object} elementA - First element card object
- * @param {Object} elementB - Second element card object
- * @returns {Object} Result of the merge attempt
- */
-export function attemptMerge(elementA, elementB) {
-    if (!elementA || !elementB) {
-        return {
-            success: false,
-            error: "Не выбраны элементы для скрещивания.",
-            monster: null
-        };
-    }
-
-    // 1. Try Evolution (matching IDs)
-    const evolutionTargetId = checkEvolution(elementA.typeId, elementB.typeId);
-    if (evolutionTargetId) {
-        const newMonster = createMonster(evolutionTargetId);
-        if (!newMonster) {
-            return {
-                success: false,
-                error: "Ошибка создания эволюции.",
-                monster: null
-            };
-        }
-        
-        let isNewDiscovery = false;
-        if (!state.unlocked.includes(evolutionTargetId)) {
-            state.unlocked.push(evolutionTargetId);
-            isNewDiscovery = true;
-        }
-        
-        return {
-            success: true,
-            monster: newMonster,
-            isNewDiscovery: isNewDiscovery,
-            isMutation: false,
-            error: null
-        };
-    }
-
-    // 2. Try Mutation (different elements, specific recipes)
-    const templateA = state.monstersDB[elementA.typeId];
-    const templateB = state.monstersDB[elementB.typeId];
-    
-    if (templateA && templateB) {
-        const mutationTargetId = checkMutation(templateA.element, templateB.element);
-        if (mutationTargetId) {
-            // 25% chance of successful mutation
-            if (Math.random() <= 0.25) {
-                const newMonster = createMonster(mutationTargetId);
-                if (!newMonster) {
-                    return {
-                        success: false,
-                        error: "Ошибка создания мутации.",
-                        monster: null
-                    };
-                }
-                
-                let isNewDiscovery = false;
-                if (!state.unlocked.includes(mutationTargetId)) {
-                    state.unlocked.push(mutationTargetId);
-                    isNewDiscovery = true;
-                }
-                
-                return {
-                    success: true,
-                    monster: newMonster,
-                    isNewDiscovery: isNewDiscovery,
-                    isMutation: true,
-                    error: null
-                };
-            } else {
-                return {
-                    success: false,
-                    error: "Скрещивание не удалось. Попробуйте еще раз!",
-                    monster: null
-                };
-            }
-        }
-    }
-
-    // If neither matches
-    return {
-        success: false,
-        error: "Скрещивание этих элементов невозможно.",
-        monster: null
-    };
+// Support both ES6 modules and global scope for traditional browser scripts
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { MUTATION_RECIPES, tryMerge };
+} else if (typeof window !== 'undefined') {
+    window.MUTATION_RECIPES = MUTATION_RECIPES;
+    window.tryMerge = tryMerge;
 }

@@ -1,223 +1,31 @@
-{
-  "fire_1": {
-    "id": "fire_1",
-    "name": "Файрик",
-    "element": "fire",
-    "tier": 1,
-    "rarity": "common",
-    "base_income": 0.1,
-    "image_url": "./assets/images/fairik.png"
-  },
-  "fire_2": {
-    "id": "fire_2",
-    "name": "Инферно",
-    "element": "fire",
-    "tier": 2,
-    "rarity": "rare",
-    "base_income": 0.5,
-    "image_url": "./assets/images/inferno.png"
-  },
-  "fire_3": {
-    "id": "fire_3",
-    "name": "Феникс",
-    "element": "fire",
-    "tier": 3,
-    "rarity": "epic",
-    "base_income": 2.0,
-    "image_url": "./assets/images/phoenix.png"
-  },
-  "fire_4": {
-    "id": "fire_4",
-    "name": "Солнечный Титан",
-    "element": "fire",
-    "tier": 4,
-    "rarity": "legendary",
-    "base_income": 6.0,
-    "image_url": "./assets/images/solar_titan.png"
-  },
+[
+  { "id": "fire_1", "name": "Файрик", "element": "fire", "tier": 1, "rarity": "common", "income": 1.5, "image_url": "./assets/images/fire_1.png" },
+  { "id": "fire_2", "name": "Пайрон", "element": "fire", "tier": 2, "rarity": "rare", "income": 3.5, "image_url": "./assets/images/fire_2.png" },
+  { "id": "fire_3", "name": "Вулкан", "element": "fire", "tier": 3, "rarity": "epic", "income": 8.0, "image_url": "./assets/images/fire_3.png" },
+  { "id": "fire_4", "name": "Спайкс", "element": "fire", "tier": 4, "rarity": "legendary", "income": 20.0, "image_url": "./assets/images/fire_4.png" },
 
-  "water_1": {
-    "id": "water_1",
-    "name": "Акварик",
-    "element": "water",
-    "tier": 1,
-    "rarity": "common",
-    "base_income": 0.1,
-    "image_url": "./assets/images/aquarik.png"
-  },
-  "water_2": {
-    "id": "water_2",
-    "name": "Гейзерик",
-    "element": "water",
-    "tier": 2,
-    "rarity": "rare",
-    "base_income": 0.5,
-    "image_url": "./assets/images/geyserik.png"
-  },
-  "water_3": {
-    "id": "water_3",
-    "name": "Гидрон",
-    "element": "water",
-    "tier": 3,
-    "rarity": "epic",
-    "base_income": 2.0,
-    "image_url": "./assets/images/hydron.png"
-  },
-  "water_4": {
-    "id": "water_4",
-    "name": "Левиафан",
-    "element": "water",
-    "tier": 4,
-    "rarity": "legendary",
-    "base_income": 6.0,
-    "image_url": "./assets/images/leviathan.png"
-  },
+  { "id": "water_1", "name": "Акварик", "element": "water", "tier": 1, "rarity": "common", "income": 1.5, "image_url": "./assets/images/water_1.png" },
+  { "id": "water_2", "name": "Баблик", "element": "water", "tier": 2, "rarity": "rare", "income": 3.5, "image_url": "./assets/images/water_2.png" },
+  { "id": "water_3", "name": "Кристик", "element": "water", "tier": 3, "rarity": "epic", "income": 8.0, "image_url": "./assets/images/water_3.png" },
+  { "id": "water_4", "name": "Фростик", "element": "water", "tier": 4, "rarity": "legendary", "income": 20.0, "image_url": "./assets/images/water_4.png" },
 
-  "nature_1": {
-    "id": "nature_1",
-    "name": "Лифтик",
-    "element": "nature",
-    "tier": 1,
-    "rarity": "common",
-    "base_income": 0.1,
-    "image_url": "./assets/images/liftik.png"
-  },
-  "nature_2": {
-    "id": "nature_2",
-    "name": "Эво-лиф",
-    "element": "nature",
-    "tier": 2,
-    "rarity": "rare",
-    "base_income": 0.5,
-    "image_url": "./assets/images/evo_leaf.png"
-  },
-  "nature_3": {
-    "id": "nature_3",
-    "name": "Дриадон",
-    "element": "nature",
-    "tier": 3,
-    "rarity": "epic",
-    "base_income": 2.0,
-    "image_url": "./assets/images/dryadon.png"
-  },
-  "nature_4": {
-    "id": "nature_4",
-    "name": "Гаятитан",
-    "element": "nature",
-    "tier": 4,
-    "rarity": "legendary",
-    "base_income": 6.0,
-    "image_url": "./assets/images/gaia_titan.png"
-  },
+  { "id": "nature_1", "name": "Лифтик", "element": "nature", "tier": 1, "rarity": "common", "income": 1.5, "image_url": "./assets/images/nature_1.png" },
+  { "id": "nature_2", "name": "Лиффи", "element": "nature", "tier": 2, "rarity": "rare", "income": 3.5, "image_url": "./assets/images/nature_2.png" },
+  { "id": "nature_3", "name": "Кактус", "element": "nature", "tier": 3, "rarity": "epic", "income": 8.0, "image_url": "./assets/images/nature_3.png" },
+  { "id": "nature_4", "name": "Хищник", "element": "nature", "tier": 4, "rarity": "legendary", "income": 20.0, "image_url": "./assets/images/nature_4.png" },
 
-  "mech_1": {
-    "id": "mech_1",
-    "name": "Механик",
-    "element": "mech",
-    "tier": 1,
-    "rarity": "common",
-    "base_income": 0.1,
-    "image_url": "./assets/images/mechanic.png"
-  },
-  "mech_2": {
-    "id": "mech_2",
-    "name": "Роботян",
-    "element": "mech",
-    "tier": 2,
-    "rarity": "rare",
-    "base_income": 0.5,
-    "image_url": "./assets/images/robotyan.png"
-  },
-  "mech_3": {
-    "id": "mech_3",
-    "name": "Мегабот",
-    "element": "mech",
-    "tier": 3,
-    "rarity": "epic",
-    "base_income": 2.0,
-    "image_url": "./assets/images/megabot.png"
-  },
-  "mech_4": {
-    "id": "mech_4",
-    "name": "Титан-Мех",
-    "element": "mech",
-    "tier": 4,
-    "rarity": "legendary",
-    "base_income": 6.0,
-    "image_url": "./assets/images/titan_mech.png"
-  },
+  { "id": "mech_1", "name": "Механик", "element": "mech", "tier": 1, "rarity": "common", "income": 1.5, "image_url": "./assets/images/mech_1.png" },
+  { "id": "mech_2", "name": "Гирон", "element": "mech", "tier": 2, "rarity": "rare", "income": 3.5, "image_url": "./assets/images/mech_2.png" },
+  { "id": "mech_3", "name": "Роботян", "element": "mech", "tier": 3, "rarity": "epic", "income": 8.0, "image_url": "./assets/images/mech_3.png" },
+  { "id": "mech_4", "name": "Болтун", "element": "mech", "tier": 4, "rarity": "legendary", "income": 20.0, "image_url": "./assets/images/mech_4.png" },
 
-  "dark_1": {
-    "id": "dark_1",
-    "name": "Теневик",
-    "element": "dark",
-    "tier": 1,
-    "rarity": "common",
-    "base_income": 0.1,
-    "image_url": "./assets/images/tenevik.png"
-  },
-  "dark_2": {
-    "id": "dark_2",
-    "name": "Нуклик",
-    "element": "dark",
-    "tier": 2,
-    "rarity": "rare",
-    "base_income": 0.5,
-    "image_url": "./assets/images/nuklik.png"
-  },
-  "dark_3": {
-    "id": "dark_3",
-    "name": "Бэттик",
-    "element": "dark",
-    "tier": 3,
-    "rarity": "epic",
-    "base_income": 2.0,
-    "image_url": "./assets/images/bettik.png"
-  },
-  "dark_4": {
-    "id": "dark_4",
-    "name": "Шедович",
-    "element": "dark",
-    "tier": 4,
-    "rarity": "legendary",
-    "base_income": 6.0,
-    "image_url": "./assets/images/shedovich.png"
-  },
+  { "id": "dark_1", "name": "Теневик", "element": "dark", "tier": 1, "rarity": "common", "income": 1.5, "image_url": "./assets/images/dark_1.png" },
+  { "id": "dark_2", "name": "Нуклик", "element": "dark", "tier": 2, "rarity": "rare", "income": 3.5, "image_url": "./assets/images/dark_2.png" },
+  { "id": "dark_3", "name": "Бэттик", "element": "dark", "tier": 3, "rarity": "epic", "income": 8.0, "image_url": "./assets/images/dark_3.png" },
+  { "id": "dark_4", "name": "Шедович", "element": "dark", "tier": 4, "rarity": "legendary", "income": 20.0, "image_url": "./assets/images/dark_4.png" },
 
-  "mutant_steam_dragon": {
-    "id": "mutant_steam_dragon",
-    "name": "Пародракон",
-    "element": "mutation",
-    "tier": "mutant",
-    "rarity": "mythic",
-    "base_income": 12.0,
-    "image_url": "./assets/images/steam_dragon.png"
-  },
-  "mutant_biorobot": {
-    "id": "mutant_biorobot",
-    "name": "Биоробот",
-    "element": "mutation",
-    "tier": "mutant",
-    "rarity": "mythic",
-    "base_income": 12.0,
-    "image_url": "./assets/images/biorobot.png"
-  },
-  "mutant_ash_demon": {
-    "id": "mutant_ash_demon",
-    "name": "Демон Пепла",
-    "element": "mutation",
-    "tier": "mutant",
-    "rarity": "mythic",
-    "base_income": 12.0,
-    "image_url": "./assets/images/ash_demon.png"
-  },
-  "mutant_abyssal_leviathan": {
-    "id": "mutant_abyssal_leviathan",
-    "name": "Бездонный Левиафан",
-    "element": "mutation",
-    "tier": "mutant",
-    "rarity": "mythic",
-    "base_income": 12.0,
-    "image_url": "./assets/images/abyssal_leviathan.png"
-  }
-}
+  { "id": "mutant_steam", "name": "Пародракон", "element": "mutant", "tier": 5, "rarity": "mythic", "income": 100.0, "image_url": "./assets/images/mutant_steam.png" },
+  { "id": "mutant_bio", "name": "Биоробот", "element": "mutant", "tier": 5, "rarity": "mythic", "income": 100.0, "image_url": "./assets/images/mutant_bio.png" },
+  { "id": "mutant_ash", "name": "Демон Пепла", "element": "mutant", "tier": 5, "rarity": "mythic", "income": 100.0, "image_url": "./assets/images/mutant_ash.png" },
+  { "id": "mutant_abyss", "name": "Бездонный Левиафан", "element": "mutant", "tier": 5, "rarity": "mythic", "income": 100.0, "image_url": "./assets/images/mutant_abyss.png" }
+]

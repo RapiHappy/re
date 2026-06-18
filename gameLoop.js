@@ -1,5 +1,6 @@
 // Real-time Update Loop and Offline Income Calculation
 import { state, saveGameState } from './gameState.js';
+import { checkIntervalAd } from './yandexApi.js';
 
 let lastFrameTime = performance.now();
 let autoSaveAccumulator = 0;
@@ -60,6 +61,7 @@ export function startGameLoop(updateUICallback) {
         autoSaveAccumulator += dt * 1000;
         if (autoSaveAccumulator >= AUTO_SAVE_INTERVAL) {
             saveGameState();
+            checkIntervalAd();
             autoSaveAccumulator = 0;
         }
 
